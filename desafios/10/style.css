@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+} 
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgreen;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, green, rgb(70, 175, 70));
+    padding: 70px;
+}
+
+
+nav{
+    text-indent: 25px;
+    background-color: rgb(70, 175, 70);
+}
+
+nav > a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1px;
+    background-color: white;
+    margin: 0px 150px;
+    text-align: center;
+
+}
+
+main > h1 {
+    font-family: idroid;
+    text-align: left;
+    color: green;
+    margin: 10px;
+}
+
+main > h2 {
+    font-family: idroid;
+    text-align: left;
+    color: green;
+    background-color: rgba(144, 238, 144, 0.623);
+    margin: 10px;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.301), white);
+}
+
+main > p {
+    text-align: left;
+    text-indent: 50px;
+}
+
+strong {
+    color: green;
+}
+
+.video {
+    padding: 20px 0px;
+    background-color: darkgreen;
+}
+
+
+#tabela{
+        background-color: lightgreen;
+        margin: 10px
+}
+
+#tabela > h1{
+    text-align: left;
+    background-color: rgb(27, 168, 27);
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+
+#tabela > p {
+    text-align: left;
+    text-indent: 50px;
+}
+
+ul{
+    display: inline-block;
+}
+
+#rodape{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    /* margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -16px;
+    margin-left: 0px; */
+   margin: 0px 0px -16px 0px; 
+}
+
+#rodape > b{
+    color: white;
+}
+

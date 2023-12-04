@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Passion;
+    src: url(fontes/passion/PassionOne-Bold.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Sriracha;
+    src: url(fontes/sriracha/Sriracha-Regular.ttf) format(truetype);
+    font-weight: normal;
+}
+
+
+:root {
+    --fonte1: 'Passion', 'cursive';
+    --fonte2: 'Sriracha', 'cursive';
+    --fonte3: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/*cabeçalho*/
+
+header {
+    background-color: black;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 8vw;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte3);
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/*div pra tudo*/
+
+div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+}
+
+/*poemas sem imagem*/
+
+div.semfundo {
+    background-color: white;
+    color: black;
+}
+
+/*poemas com imagem*/
+
+
+div#img1 {
+    background-image:url(imagens/background001.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div#img2 {
+    background-image:url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div.comimagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte3);
+    padding: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
